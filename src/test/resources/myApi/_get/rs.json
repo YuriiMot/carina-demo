@@ -22,8 +22,12 @@
   },
   "visibility":"type:Integer",
   "wind":{
-    "speed":"type:Integer",
+    "speed":"type:Double",
     "deg":"type:Integer",
+    "gust": "type:Integer"
+  },
+  "rain":{
+    "1h":"type:Double"
   },
   "clouds":{
     "all":"type:Integer"
